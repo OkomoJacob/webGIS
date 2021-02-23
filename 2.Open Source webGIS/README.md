@@ -77,6 +77,8 @@ Simple web pages, such as the ones we build in this chapter, are composed of not
 - The key to understanding how CSS works is to imagine that there is an invisible box around every HTML element. CSS allows us to create rules that control the way that each individual box, and the contents of that box, is presented. CSS is run when it is linked to HTML code, while that HTML code is processed and  visually presented by the browser.
 
 ### 1.3 Intro to Basic JavaScript
+
+JavaScript, often abbreviated as JS among many developers, is a programming language that conforms to the ECMAScript specification. JavaScript is `high-level`, often `just-in-time` compiled and multi-paradigm. It has dynamic typing, prototype-based object-orientation and first-class functions.
 ### 1.4 Intercativity in JavaScript
 ### 1.5 Web Servers 
 

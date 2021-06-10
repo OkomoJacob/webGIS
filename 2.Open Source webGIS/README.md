@@ -11,6 +11,7 @@
       - [Sample HTML5 Code snippet](#sample-html5-code-snippet)
     - [1.2 CSS](#12-css)
     - [1.3 Intro to Basic JavaScript](#13-intro-to-basic-javascript)
+      - [More about JS](#more-about-js)
     - [1.4 Intercativity in JavaScript](#14-intercativity-in-javascript)
     - [1.5 Web Servers](#15-web-servers)
   - [Section II: Web Mapping with Leaflet](#section-ii-web-mapping-with-leaflet)
@@ -79,6 +80,9 @@ Simple web pages, such as the ones we build in this chapter, are composed of not
 ### 1.3 Intro to Basic JavaScript
 
 JavaScript, often abbreviated as JS among many developers, is a programming language that conforms to the ECMAScript specification. JavaScript is `high-level`, often `just-in-time` compiled and multi-paradigm. It has dynamic typing, prototype-based object-orientation and first-class functions.
+#### More about JS
+- Client-side vs. server-side
+- 
 ### 1.4 Intercativity in JavaScript
 ### 1.5 Web Servers 
 

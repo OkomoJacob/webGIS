@@ -82,7 +82,7 @@ Simple web pages, such as the ones we build in this chapter, are composed of not
 JavaScript, often abbreviated as JS among many developers, is a programming language that conforms to the ECMAScript specification. JavaScript is `high-level`, often `just-in-time` compiled and multi-paradigm. It has dynamic typing, prototype-based object-orientation and first-class functions.
 #### More about JS
 - Client-side vs. server-side
-- 
+- The JavaScript console
 ### 1.4 Intercativity in JavaScript
 ### 1.5 Web Servers 
 

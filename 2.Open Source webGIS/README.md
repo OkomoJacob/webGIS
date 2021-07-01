@@ -83,6 +83,8 @@ JavaScript, often abbreviated as JS among many developers, is a programming lang
 #### More about JS
 - Client-side vs. server-side
 - The JavaScript console. In your browser, type `Ctr+Shift+J` or `F12` for console.
+- Assignment operators
+- Data types
 ### 1.4 Intercativity in JavaScript
 ### 1.5 Web Servers 
 

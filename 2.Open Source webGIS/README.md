@@ -58,7 +58,7 @@ Simple web pages, such as the ones we build in this chapter, are composed of not
     </head>
     <body>
       <!-- General Map information goes here -->
-        <p>Your Maap Content will go here</P>
+        <p>Your Map Content will go here</P>
     </body>
 </html>
 

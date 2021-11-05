@@ -6,6 +6,11 @@
     - [What is web mapping?](#what-is-web-mapping)
     - [Software used in this build](#software-used-in-this-build)
   - [Section I: Introduction to Web Technologies](#section-i-introduction-to-web-technologies)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Intro to Basic JavaScript](#intro-to-basic-javascript)
+    - [Intercativity in JavaScript](#intercativity-in-javascript)
+    - [Web Servers](#web-servers)
   - [Section II: Web Mapping with Leaflet](#section-ii-web-mapping-with-leaflet)
   - [Section III: Databases](#section-iii-databases)
   - [Section IV: Advanced Concepts](#section-iv-advanced-concepts)
@@ -22,11 +27,14 @@ A web map is an interactive display of geographic information, in the form of a 
   <img src = "https://github.com/OkomoJacob/webGIS/blob/main/3.assets/softwares.png">
 
 ## Section I: Introduction to Web Technologies
-- HTML
-- CSS
-- Intro to Basic JavaScript
-- Intercativity in JavaScript
-- Web Servers 
+### HTML
+- HTML is a data format used to encode the contents and structure of web pages. HTML is usually stored in plain text files with the .html file extension. Every time one accesses a web page, using a web browser, the respective HTML file for that web page is transferred and decoded into the visual image that we see on screen.
+Simple web pages, such as the ones we build in this chapter, are composed of nothing but
+HTML code contained in a single .html file. 
+### CSS
+### Intro to Basic JavaScript
+### Intercativity in JavaScript
+### Web Servers 
 
 ## Section II: Web Mapping with Leaflet
 - Leaflet
@@ -41,7 +49,6 @@ A web map is an interactive display of geographic information, in the form of a 
 ## Section IV: Advanced Concepts
 - Client-Side Geoprocessing
 - Collaborative Mapping
-
 
 
 ## Final Notes

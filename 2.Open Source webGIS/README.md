@@ -7,6 +7,7 @@
     - [Software used in this build](#software-used-in-this-build)
   - [Section I: Introduction to Web Technologies](#section-i-introduction-to-web-technologies)
     - [1.1 HTML](#11-html)
+      - [Sample HTML5 Code snippet](#sample-html5-code-snippet)
     - [1.2 CSS](#12-css)
     - [1.3 Intro to Basic JavaScript](#13-intro-to-basic-javascript)
     - [1.4 Intercativity in JavaScript](#14-intercativity-in-javascript)
@@ -49,9 +50,12 @@ Simple web pages, such as the ones we build in this chapter, are composed of not
 <!DOCTYPE html>
     <html>
     <head>
-        <title></title>
+        <title>My Map</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+      <!-- General Map information goes here -->
         <p>Your Maap Content will go here</P>
     </body>
 </html>

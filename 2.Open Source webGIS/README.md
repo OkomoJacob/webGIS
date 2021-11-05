@@ -6,14 +6,22 @@
     - [What is web mapping?](#what-is-web-mapping)
     - [Software used in this build](#software-used-in-this-build)
   - [Section I: Introduction to Web Technologies](#section-i-introduction-to-web-technologies)
-    - [HTML](#html)
-    - [CSS](#css)
-    - [Intro to Basic JavaScript](#intro-to-basic-javascript)
-    - [Intercativity in JavaScript](#intercativity-in-javascript)
-    - [Web Servers](#web-servers)
+    - [1.1 HTML](#11-html)
+    - [1.2 CSS](#12-css)
+    - [1.3 Intro to Basic JavaScript](#13-intro-to-basic-javascript)
+    - [1.4 Intercativity in JavaScript](#14-intercativity-in-javascript)
+    - [1.5 Web Servers](#15-web-servers)
   - [Section II: Web Mapping with Leaflet](#section-ii-web-mapping-with-leaflet)
+    - [2.1 Leaflet](#21-leaflet)
+    - [2.2 GeoJSON](#22-geojson)
+    - [2.3 Symbology and Interactivity](#23-symbology-and-interactivity)
   - [Section III: Databases](#section-iii-databases)
+    - [3.1 Databases in general](#31-databases-in-general)
+    - [3.2 Non-Spatial Queries](#32-non-spatial-queries)
+    - [3.3 Spatial Queries](#33-spatial-queries)
   - [Section IV: Advanced Concepts](#section-iv-advanced-concepts)
+    - [4.1 Client-Side Geoprocessing](#41-client-side-geoprocessing)
+    - [4.2 Collaborative Mapping](#42-collaborative-mapping)
   - [Final Notes](#final-notes)
   - [Errata](#errata)
   - [More Related Articles/Resources](#more-related-articlesresources)
@@ -27,28 +35,28 @@ A web map is an interactive display of geographic information, in the form of a 
   <img src = "https://github.com/OkomoJacob/webGIS/blob/main/3.assets/softwares.png">
 
 ## Section I: Introduction to Web Technologies
-### HTML
+### 1.1 HTML
 - HTML is a data format used to encode the contents and structure of web pages. HTML is usually stored in plain text files with the .html file extension. Every time one accesses a web page, using a web browser, the respective HTML file for that web page is transferred and decoded into the visual image that we see on screen.
 Simple web pages, such as the ones we build in this chapter, are composed of nothing but
 HTML code contained in a single .html file. 
-### CSS
-### Intro to Basic JavaScript
-### Intercativity in JavaScript
-### Web Servers 
+### 1.2 CSS
+### 1.3 Intro to Basic JavaScript
+### 1.4 Intercativity in JavaScript
+### 1.5 Web Servers 
 
 ## Section II: Web Mapping with Leaflet
-- Leaflet
-- GeoJSON
-- Symbology and Interactivity
+### 2.1 Leaflet
+### 2.2 GeoJSON
+### 2.3 Symbology and Interactivity
   
 ## Section III: Databases
-  - Databases in general
-  - Non-Spatial Queries
-  - Spatial Queries
+### 3.1 Databases in general
+### 3.2 Non-Spatial Queries
+### 3.3 Spatial Queries
 
 ## Section IV: Advanced Concepts
-- Client-Side Geoprocessing
-- Collaborative Mapping
+### 4.1 Client-Side Geoprocessing
+### 4.2 Collaborative Mapping
 
 
 ## Final Notes

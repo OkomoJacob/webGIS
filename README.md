@@ -1,12 +1,13 @@
 # The Ultimate Web GIS Developement 
-![GitHub repo size](https://img.shields.io/github/repo-size/OkomoJacob/GIS_MOOCs.svg?color=purple&style=flat)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/OkomoJacob/GIS_MOOCs.svg?style=flat)
-[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/OkomoJacob/GIS_MOOCs/blob/master/LICENSE)
-![GitHub language count](https://img.shields.io/github/languages/count/OkomoJacob/GIS_MOOCs?logo=visual-studio-code) 
-![GitHub top language](https://img.shields.io/github/languages/top/OkomoJacob/GIS_MOOCs)
-![GitHub last commit](https://img.shields.io/github/last-commit/OkomoJacob/GIS_MOOCs.svg?style=flat)
-![Forks](https://img.shields.io/github/forks/OkomoJacob/GIS_MOOCs?style=social) 
+![GitHub repo size](https://img.shields.io/github/repo-size/OkomoJacob/webGIS.svg?color=purple&style=flat)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/OkomoJacob/webGIS.svg?style=flat)
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/OkomoJacob/webGIS/blob/master/LICENSE)
+![GitHub language count](https://img.shields.io/github/languages/count/OkomoJacob/webGIS?logo=visual-studio-code) 
+![GitHub top language](https://img.shields.io/github/languages/top/OkomoJacob/webGIS)
+![GitHub last commit](https://img.shields.io/github/last-commit/OkomoJacob/webGIS.svg?style=flat)
+![Forks](https://img.shields.io/github/forks/OkomoJacob/webGIS?style=social) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
+
 ### List of Contents:
 - [The Ultimate Web GIS Developement](#the-ultimate-web-gis-developement)
     - [List of Contents:](#list-of-contents)

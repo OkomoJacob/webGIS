@@ -42,6 +42,7 @@ Simple web pages, such as the ones we build in this chapter, are composed of not
 
 - HTML code consists of [HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 <img src = "https://github.com/OkomoJacob/webGIS/blob/main/3.assets/htmlElement.png">
+
 ### 1.2 CSS
 
 ### 1.3 Intro to Basic JavaScript

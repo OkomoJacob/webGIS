@@ -26,7 +26,7 @@ This is the comprehensive path, buddy
 - GeoJSON
 - Symbology and Interactivity
   
-  ## Section III: Databases
+## Section III: Databases
   - Databases in general
   - Non-Spatial Queries
   - Spatial Queries

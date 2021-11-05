@@ -39,7 +39,11 @@ A web map is an interactive display of geographic information, in the form of a 
 - By definition HyperText Markup Language, conviniently known as HTML among many developers is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScrip, which we'll discuss in details in the succeeding sections.
 - HTML is a data format used to encode the contents and structure of web pages. HTML is usually stored in plain text files with the `.html` file extension. Every time one accesses a web page, using a web browser, the respective HTML file for that web page is transferred and decoded into the visual image that we see on screen.
 Simple web pages, such as the ones we build in this chapter, are composed of nothing but HTML code contained in a single `.html` file. 
+
+- HTML code consists of [HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+<img src = "">
 ### 1.2 CSS
+
 ### 1.3 Intro to Basic JavaScript
 ### 1.4 Intercativity in JavaScript
 ### 1.5 Web Servers 

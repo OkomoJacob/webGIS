@@ -43,6 +43,7 @@ Simple web pages, such as the ones we build in this chapter, are composed of not
 - HTML code consists of [HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 <img src = "https://github.com/OkomoJacob/webGIS/blob/main/3.assets/htmlElement.png">
 
+#### Sample HTML5 Code snippet
 ```html
 
 <!DOCTYPE html>
@@ -51,7 +52,7 @@ Simple web pages, such as the ones we build in this chapter, are composed of not
         <title></title>
     </head>
     <body>
-        <p>Paragraph here</P>
+        <p>Your Maap Content will go here</P>
     </body>
 </html>
 

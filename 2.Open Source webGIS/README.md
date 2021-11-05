@@ -20,6 +20,7 @@
 A web map is an interactive display of geographic information, in the form of a web page, that you can use to tell stories and answer questions in an interactive manner, unlike in the old stand alone Desktop GIS alone.Good to note is that a Web Map is fully powered by the web, rather than digital maps alone.
   ### Software in this this build
   <img src = "https://github.com/OkomoJacob/webGIS/blob/main/3.assets/softwares.png">
+  
 ## Section I: Introduction to Web Technologies
 - HTML
 - CSS

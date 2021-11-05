@@ -3,6 +3,7 @@
 - [Web GIS](#web-gis)
     - [List of Contents:](#list-of-contents)
   - [The WebGIS Starting Point](#the-webgis-starting-point)
+    - [What is web mapping?](#what-is-web-mapping)
   - [Section I: Introduction to Web Technologies](#section-i-introduction-to-web-technologies)
   - [Section II: Web Mapping with Leaflet](#section-ii-web-mapping-with-leaflet)
   - [Section III: Databases](#section-iii-databases)
@@ -10,10 +11,12 @@
   - [Final Notes](#final-notes)
   - [Errata](#errata)
   - [More Related Articles/Resources](#more-related-articlesresources)
+  - [Acknowledgements](#acknowledgements)
 
 
 ## The WebGIS Starting Point
-This is the comprehensive path, buddy
+### What is web mapping?
+A web map is an interactive display of geographic information, in the form of a web page, that you can use to tell stories and answer questions in an interactive manner, unlike in the old stand alone Desktop GIS alone.Good to note is that a Web Map is fully powered by the web, rather than digital maps alone.
 ## Section I: Introduction to Web Technologies
 - HTML
 - CSS
@@ -43,3 +46,6 @@ This is the comprehensive path, buddy
 
 ## More Related Articles/Resources
 
+
+## Acknowledgements
+1. [Michael Dorman](linkhere)

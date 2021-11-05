@@ -12,6 +12,9 @@
 ## The WebGIS Starting Point
 ### What is web mapping?
 A web map is an interactive display of geographic information, in the form of a web page, that you can use to tell stories and answer questions in an interactive manner, unlike in the old stand alone Desktop GIS alone.Good to note is that a Web Map is fully powered by the web, rather than digital maps alone.
+[ ] This means that the map is usually not self-contained; in other words, it depends on
+the internet. At least some of the content displayed on a web maps is usually loaded from
+other locations on the web, such as a tile server
 
 
 ## Final Notes

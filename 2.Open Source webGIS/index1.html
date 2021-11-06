@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Mapping</title>
+    <title>Quick Intro to Leaflet</title>
 </head>
 <body>
-    <h2>select your basemaps to render below</h2>
+    <div id="description">
+        <h2>select your basemaps to render below</h2>
+        <p>This is the final output of <a href="https://leafletjs.com/examples/quick-start/"
+            target="_blank">Leaflet Quick Start Guide</a>.
+            The map simply demonstrates Leaflet basics, such as setting up a Leaflet map,
+            adding markers, polylines and popups.</p>
+        <p>The placement and styling of the title and description boxes is done using CSS. Check out the source code of this page to see how.</p>
+        <p>Map authored by OkomoJacob</p>
     <!-- This is a sample dropdown menu -->
     <select name="Basemaps">
         <option value="terrain">Terrain</option>
@@ -16,5 +23,7 @@
         <option value="streets">Streets</option>
     </select>
     <input type="button" value="Reload">
+    </div>
+    <script src="map.js"></script>
 </body>
 </html>

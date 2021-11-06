@@ -97,7 +97,7 @@ JavaScript, often abbreviated as JS among many developers, is a programming lang
         lastname: "Okomo",
         age: 23,
         eyecolor: "black",
-        gende: "male"
+        gender: "male"
 };
 
 ```

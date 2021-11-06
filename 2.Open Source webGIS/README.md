@@ -102,9 +102,9 @@ JavaScript, often abbreviated as JS among many developers, is a programming lang
 
 ```
 <img src = "https://github.com/OkomoJacob/webGIS/blob/main/3.assets/jsObjects.png">
+
 - Functions
 - More to follow 
-
 ### 1.4 Intercativity in JavaScript
 ### 1.5 Web Servers 
 

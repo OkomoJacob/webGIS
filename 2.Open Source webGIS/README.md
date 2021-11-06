@@ -70,6 +70,11 @@ Simple web pages, such as the ones we build in this chapter, are composed of not
 ```
 
 ### 1.2 CSS
+- Cascading Style Sheets (CSS) is a language for specifying the style and appearance of web pages. For example, CSS is used to specify:
+  • Fonts
+  • Colors
+  • Arrangement of elements on the page
+- The key to understanding how CSS works is to imagine that there is an invisible box around every HTML element. CSS allows us to create rules that control the way that each individual box, and the contents of that box, is presented. CSS is run when it is linked to HTML code, while that HTML code is processed and  visually presented by the browser.
 
 ### 1.3 Intro to Basic JavaScript
 ### 1.4 Intercativity in JavaScript

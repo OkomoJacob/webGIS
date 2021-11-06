@@ -50,15 +50,20 @@ Simple web pages, such as the ones we build in this chapter, are composed of not
 ```html
 
 <!DOCTYPE html>
-    <html>
+<html>
     <head>
         <title>My Map</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Easy WebGIS tutorials">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="OkomoJacob">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
       <!-- General Map information goes here -->
         <p>Your Map Content will go here</P>
+        <!-- This is  -->
     </body>
 </html>
 

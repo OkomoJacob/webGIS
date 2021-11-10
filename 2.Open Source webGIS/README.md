@@ -12,6 +12,7 @@
     - [1.2 CSS](#12-css)
     - [1.3 Intro to Basic JavaScript](#13-intro-to-basic-javascript)
       - [More about JS](#more-about-js)
+        - [Sample JS Object Data Type](#sample-js-object-data-type)
     - [1.4 Intercativity in JavaScript](#14-intercativity-in-javascript)
     - [1.5 Web Servers](#15-web-servers)
   - [Section II: Web Mapping with Leaflet](#section-ii-web-mapping-with-leaflet)

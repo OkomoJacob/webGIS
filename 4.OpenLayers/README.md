@@ -14,3 +14,17 @@ With Node installed, just install as below:
 npm install ol
 
 ```
+
+```jsx
+
+function init(){
+    const map = new ol.Map({
+        view: new ol.View({
+            center: [34, 0.0],
+            zoom: 2
+        })
+        layers: 
+    })
+}
+
+```

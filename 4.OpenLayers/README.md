@@ -4,6 +4,7 @@
     - [List of Contents:](#list-of-contents)
   - [The Open Layers Starting Point](#the-open-layers-starting-point)
   - [Just getting into the ol Library](#just-getting-into-the-ol-library)
+  - [Adding OSM Basemaps](#adding-osm-basemaps)
     
 ## The Open Layers Starting Point
 To get started, cd into your working directory and install the `ol` library or head to [the official Open Layrers Installation page]()
@@ -38,3 +39,5 @@ function init(){
 }
 
 ```
+## Adding OSM Basemaps
+- OSM basemaps in png can be found [here as Tile servers](https://wiki.openstreetmap.org/wiki/Tile_servers).

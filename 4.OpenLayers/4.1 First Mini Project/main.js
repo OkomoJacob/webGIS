@@ -16,18 +16,19 @@ function init(){
         console.log(e.coordinate)
     })
 
-    // Adding OSM Standard and Humaniterain basemaps
+    // Adding OSM Standard and Humaniterain basemap Layers
     const openStreetMapStandard = new ol.layer.Tile({
         source: new ol.source.OSM(),
-        visibility: false,
-        title: 'OSMStandard',
+        visibile: true,
+        title: 'OSMStandard'
     })
+
     const openStreetMapHumanitairian = new ol.layer.Tile({
         source: new ol.source.OSM({
             url: 'https://tile.openstreetmap.org/${z}/${x}/${y}.png'
         }),
-        visibile: false,
-        title: 'OSMHumanitarian',
+        visibile: true,
+        title: 'OSMHumanitarian'
     })
 
     const stamenTerrain = new ol.layer.Tile({
@@ -35,8 +36,15 @@ function init(){
             url: 'https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg',
             attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
         }),
-        visibile: true,
+        visibile: false,
         title: 'StamenTerrain'
     })
-    map.addLayer(stamenTerrain);
+    // Layer Groups
+    // map.addLayer(stamenTerrain);
+    const baseLayerGroup = new ol.layer.Group({
+        layers: [
+            openStreetMapStandard, openStreetMapHumanitairian, stamenTerrain
+        ]
+    })
+    map.addLayer(baseLayerGroup);
 }

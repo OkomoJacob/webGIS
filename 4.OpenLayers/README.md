@@ -41,3 +41,5 @@ function init(){
 ```
 ## Adding OSM Basemaps
 - OSM basemaps in png can be found [here as Tile servers](https://wiki.openstreetmap.org/wiki/Tile_servers).
+- Stamen [Raster Terrain Basemaps](http://maps.stamen.com/#terrain/12/37.7706/-122.3782), and scroll down to `Elsewhere`
+- 

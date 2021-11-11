@@ -3,6 +3,7 @@
 - [Open Layers,Getting Started](#open-layersgetting-started)
     - [List of Contents:](#list-of-contents)
   - [The Open Layers Starting Point](#the-open-layers-starting-point)
+  - [Just getting into the ol Library](#just-getting-into-the-ol-library)
     
 ## The Open Layers Starting Point
 To get started, cd into your working directory and install the `ol` library or head to [the official Open Layrers Installation page]()
@@ -14,7 +15,8 @@ With Node installed, just install as below:
 npm install ol
 
 ```
-
+## Just getting into the ol Library
+Add this code into ypour `main.js` or `script.js` file:
 ```jsx
 
 window.onload = init;

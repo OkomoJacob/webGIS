@@ -3,8 +3,8 @@ window.onload = init;
 function init(){
     const map = new ol.Map({
         view: new ol.View({
-            center: [0, 0],
-            zoom: 2
+            center: [4176064.061715488, 7011.839939746307],
+            zoom: 6.2
         }),
         layers: [
             // Tile layers array
@@ -13,5 +13,9 @@ function init(){
             })
         ],
         target: 'js-map'
+    })
+    // reveal myCoordinates
+    map.on('click', function(e){
+        console.log(e.coordinate)
     })
 }

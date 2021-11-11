@@ -21,4 +21,10 @@ function init(){
     map.on('click', function(e){
         console.log(e.coordinate)
     })
+    // Adding OSM Humaniterrain basemap
+    const openStreetMapHumanitairian = new ol.layer.Tile({
+        source: new ol.source.OSM({
+            url: 'https://tile.openstreetmap.org/${z}/${x}/${y}.png	'
+        })
+    })
 }

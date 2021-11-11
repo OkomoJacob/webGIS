@@ -7,24 +7,36 @@ function init(){
             zoom: 6.2,
             minZoom: 6,
             maxZoom: 20,
-            rotation: 0.5 
+            // rotation: 0.5 // in radians
         }),
-        layers: [
-            // Tile layers array
-            new ol.layer.Tile({
-                source: new ol.source.OSM()
-            })
-        ],
         target: 'js-map'
     })
     // reveal myCoordinates
     map.on('click', function(e){
         console.log(e.coordinate)
     })
-    // Adding OSM Humaniterrain basemap
+
+    // Adding OSM Standard and Humaniterain basemaps
+    const openStreetMapStandard = new ol.layer.Tile({
+        source: new ol.source.OSM(),
+        visibility: false,
+        title: 'OSMStandard',
+    })
     const openStreetMapHumanitairian = new ol.layer.Tile({
         source: new ol.source.OSM({
-            url: 'https://tile.openstreetmap.org/${z}/${x}/${y}.png	'
-        })
+            url: 'https://tile.openstreetmap.org/${z}/${x}/${y}.png'
+        }),
+        visibile: false,
+        title: 'OSMHumanitarian',
     })
+
+    const stamenTerrain = new ol.layer.Tile({
+        source: new ol.source.XYZ({
+            url: 'https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg',
+            attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
+        }),
+        visibile: true,
+        title: 'StamenTerrain'
+    })
+    map.addLayer(stamenTerrain);
 }

@@ -25,7 +25,7 @@ function init(){
 
     const openStreetMapHumanitarian = new ol.layer.Tile({
         source: new ol.source.OSM({
-            url: 'http://a.tile.openstreetmap.fr/hot/${z}/${x}/${y}.png'
+            url: 'https://tile.openstreetmap.org/${z}/${x}/${y}.png'
         }),
         visibility: false,
         title: 'OSMHumanitarian'
@@ -48,4 +48,12 @@ function init(){
         ]
     });
     map.addLayer(baseLayerGroup);
+    // Layer switcher logic for Basemaps : Use Query selectors
+    const baseLayerElements = document.querySelectorAll('.sidebar > input[type=radio]');
+    for (let baseLayerElement of baseLayerElements){
+        baseLayerElement.addEventListener('change', function (){
+            let baseLayerElement = this.value;
+        })
+    }
+
 }

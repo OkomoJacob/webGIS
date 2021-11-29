@@ -78,7 +78,7 @@ import {Fill, Stroke, Circle, Style} from 'ol/style';
 <img src = "https://github.com/OkomoJacob/webGIS/blob/main/4.OpenLayers/4.1%20First%20Mini%20Project/imgs/stylingTerrainVectorData.png"> <br>
 
 ## Refernces
-1. [All ol Classes, Elements in the Official API Docs](https://openlayers.org/en/latest/apidoc/)(br>
+1. [All ol Classes, Elements in the Official API Docs](https://openlayers.org/en/latest/apidoc/)<br>
 2. 
 
 

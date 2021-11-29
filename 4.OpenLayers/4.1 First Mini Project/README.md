@@ -44,6 +44,33 @@ Add this code into ypour `main.js` or `script.js` file:
 - OSM basemaps in png can be found [here as Tile servers](https://wiki.openstreetmap.org/wiki/Tile_servers).
 - Stamen [Raster Terrain Basemaps](http://maps.stamen.com/#terrain/12/37.7706/-122.3782), and scroll down to `Elsewhere`
 
+## Styling your Vector Layers
+- You can do more vector styling as seen in the code snippet below. More styles can be found in the [ol Api Doc](https://openlayers.org/en/latest/apidoc/module-ol_style_Style-Style.html)
+
+```jsx
+
+import {Fill, Stroke, Circle, Style} from 'ol/style';
+
+ var fill = new Fill({
+   color: 'rgba(255,255,255,0.4)'
+ });
+ var stroke = new Stroke({
+   color: '#3399CC',
+   width: 1.25
+ });
+ var styles = [
+   new Style({
+     image: new Circle({
+       fill: fill,
+       stroke: stroke,
+       radius: 5
+     }),
+     fill: fill,
+     stroke: stroke
+   })
+ ];
+ 
+```
 ## Refernces
 1. [All ol Classes, Elements in the Official API Docs](https://openlayers.org/en/latest/apidoc/)(br>
 2. 

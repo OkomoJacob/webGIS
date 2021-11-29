@@ -35,10 +35,17 @@ Add this code into ypour `main.js` or `script.js` file:
 }
 
 ```
+
 ### Sample result shown below, focus at `Kiambu County` in Central Kenya.
 
-<img src = "https://github.com/OkomoJacob/webGIS/blob/main/4.OpenLayers/4.1%20First%20Mini%20Project/imgs/addingVectorData.png">
+<img src = "https://github.com/OkomoJacob/webGIS/blob/main/4.OpenLayers/4.1%20First%20Mini%20Project/imgs/addingVectorData.png"> <br>
+
 ## Adding OSM Basemaps
 - OSM basemaps in png can be found [here as Tile servers](https://wiki.openstreetmap.org/wiki/Tile_servers).
 - Stamen [Raster Terrain Basemaps](http://maps.stamen.com/#terrain/12/37.7706/-122.3782), and scroll down to `Elsewhere`
-- 
+
+## Refernces
+1. [All ol Classes, Elements in the Official API Docs](https://openlayers.org/en/latest/apidoc/)(br>
+2. 
+
+

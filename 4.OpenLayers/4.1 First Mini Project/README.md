@@ -20,7 +20,7 @@ Add this code into ypour `main.js` or `script.js` file:
 
 ```
 - To add your own custom shapefiles (Vector e.g GeoJSON
-```
+```jsx
 //Adding Vector Layers
     const kiambuGeosJSON = new ol.layer.VectorImage({
         source: new ol.source.Vector({
@@ -34,7 +34,7 @@ Add this code into ypour `main.js` or `script.js` file:
 }
 
 ```
-### Sample result shown below.
+### Sample result shown below, focus at `Kiambu County` in Central Kenya.
 
 <img src = "https://github.com/OkomoJacob/webGIS/blob/main/4.OpenLayers/4.1%20First%20Mini%20Project/imgs/addingVectorData.png">
 ## Adding OSM Basemaps

@@ -15,13 +15,16 @@
             <div class="sidebar">
                 <h2>Base Layers</h2>
                 <input type="radio" name="baseLayerRadioButton" value = 'OSMStandard' checked>OSM Standard<br>
-                <input type="radio" name="baseLayerRadioButton" value = 'OSMHumanitarian' >OSM Humaniterian<br>
-                <input type="radio" name="baseLayerRadioButton" value = 'StamenTerrain' >Stamen Terrain<br>
+                <input type="radio" name="baseLayerRadioButton" value = 'OSMHumanitarian'>OSM Humaniterian<br>
+                <input type="radio" name="baseLayerRadioButton" value = 'StamenTerrain'>Stamen Terrain<br>
             </div>
+        </div>
+        <div class="grid-2">
+            <div id = 'js-map' class="map"></div>
         </div>
     </div>
     <!-- The target -->
-    <div id = 'js-map' class="map"></div>
+    
     <script src= "./main.js"></script>
     <script src= "./libs/v6.9.0-dist/ol.js"></script>
 </body>

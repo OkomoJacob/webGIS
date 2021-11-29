@@ -48,6 +48,7 @@ function init(){
         ]
     });
     map.addLayer(baseLayerGroup);
+
     // Layer switcher logic for Basemaps : Use Query selectors
     const baseLayerElements = document.querySelectorAll('.sidebar > input[type=radio]');
     for (let baseLayerElement of baseLayerElements){
@@ -63,14 +64,36 @@ function init(){
         })
     }
 
-    //Vector Layers
+    //Vector Layers and styling ol
+    const fillStyle = new ol.style.Fill({
+        color: [84, 118, 225, 1] //color value
+    })
+
+    const strokeStyle = new ol.style.Stroke({
+        color: [46, 45, 45, 1],
+        width: 1.2
+    })
+
+    const circleStyle = new ol.style.Circle({
+        fill: new ol.style.Fill({
+            color: [245, 49, 5, 1]
+        }),
+        radius: 7,
+        stroke: strokeStyle
+    })
+    
     const kiambuGeosJSON = new ol.layer.VectorImage({
         source: new ol.source.Vector({
             url: '/data/vector_data/kiambu.geojson',
             format: new ol.format.GeoJSON()
         }),
         visible: true,
-        title: 'Kiambu Kenya'
+        title: 'Kiambu Kenya',
+        style: new ol.style.Style({
+            fill: fillStyle,
+            stroke: strokeStyle,
+            image: circleStyle
+        })
     })
     map.addLayer(kiambuGeosJSON);
 }

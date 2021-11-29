@@ -1,4 +1,5 @@
-### In this Mini Project
+## In this Open Layers mini Project
+-Just basics of the Open Layers Open Source Library
 
 Add this code into ypour `main.js` or `script.js` file:
 ```jsx

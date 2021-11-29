@@ -25,7 +25,7 @@ function init(){
 
     const openStreetMapHumanitarian = new ol.layer.Tile({
         source: new ol.source.OSM({
-            url: 'https://tile.openstreetmap.org/${z}/${x}/${y}.png'
+            url: 'https://tile.openstreetmap.fr/hot/{z}/{x}/{y}.png'
         }),
         visibility: false,
         title: 'OSMHumanitarian'
@@ -52,8 +52,25 @@ function init(){
     const baseLayerElements = document.querySelectorAll('.sidebar > input[type=radio]');
     for (let baseLayerElement of baseLayerElements){
         baseLayerElement.addEventListener('change', function (){
-            let baseLayerElement = this.value;
+            let baseLayerElementValue = this.value;
+
+            //Get each element in the ol.group
+            baseLayerGroup.getLayers().forEach(function (element, index, array){
+                let baseLayerTitle = element.get('title');
+                // Toggling visibility
+                element.setVisible(baseLayerTitle === baseLayerElementValue);
+            })
         })
     }
 
+    //Vector Layers
+    const kiambuGeosJSON = new ol.layer.VectorImage({
+        source: new ol.source.Vector({
+            url: '/data/vector_data/kiambu.geojson',
+            format: new ol.format.GeoJSON()
+        }),
+        visible: true,
+        title: 'Kiambu Kenya'
+    })
+    map.addLayer(kiambuGeosJSON);
 }

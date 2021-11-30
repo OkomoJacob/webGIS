@@ -20,7 +20,9 @@ Add this code into ypour `main.js` or `script.js` file:
     }
 
 ```
-- To add your own custom shapefiles (Vector e.g GeoJSON
+- To add your own custom shapefiles (Vector e.g GeoJSON). 
+- You can edit and dowwnload your GeoJSON shapefiles [here](https://geojson.io/#map=10/-1.0375/36.9285)
+- 
 ```jsx
 //Adding Vector Layers
     const kiambuGeosJSON = new ol.layer.VectorImage({
@@ -76,6 +78,53 @@ import {Fill, Stroke, Circle, Style} from 'ol/style';
 - The points are seen as distinct red circles, ploygons as blue. This were implemented by the `ol.style.Circle`
 
 <img src = "https://github.com/OkomoJacob/webGIS/blob/main/4.OpenLayers/4.1%20First%20Mini%20Project/imgs/stylingTerrainVectorData.png"> <br>
+
+
+## Adding Interactivity to your Vector Features
+
+```jsx
+import Map from 'ol/Map';
+
+import Map from 'ol/Map';
+import View from 'ol/View';
+import TileLayer from 'ol/layer/Tile';
+import OSM from 'ol/source/OSM';
+
+var map = new Map({
+  view: new View({
+    center: [0, 0],
+    zoom: 1
+  }),
+  layers: [
+    new TileLayer({
+      source: new OSM()
+    })
+  ],
+  target: 'map'
+});
+
+```
+- Read more at [forEachFeatureAtPixe()](https://openlayers.org/en/latest/apidoc/module-ol_Map-Map.html#forEachFeatureAtPixel)
+
+## Enabling Pop-ups onClick by using `Overlay`
+- Read more about it [here](https://openlayers.org/en/latest/apidoc/module-ol_Overlay-Overlay.html)
+
+### Sample snippet
+```jsx
+import Overlay from 'ol/Overlay';
+```
+An element to be displayed over the map and attached to a single map location
+
+#### Example popup
+```jsx
+import Overlay from 'ol/Overlay';
+
+var popup = new Overlay({
+  element: document.getElementById('popup')
+});
+popup.setPosition(coordinate);
+map.addOverlay(popup);
+```
 
 ## Refernces
 1. [All ol Classes, Elements in the Official API Docs](https://openlayers.org/en/latest/apidoc/)<br>

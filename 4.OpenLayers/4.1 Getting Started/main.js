@@ -94,4 +94,16 @@ function init(){
         })
     })
     map.addLayer(kiambuGeosJSON);
+    
+    //Interactivity: Vector Feature Pop-up Logic
+    map.on('click', function(e){
+        map.forEachFeatureAtPixel(e.pixel, function (feature, layer){
+            
+            let clickedFeatureGeom = feature.get('geometry');
+            let clickedFeatureName = feature.get('Name');
+            let clickedFeatureMoreInfo = feature.get('More Info');
+
+            console.log(clickedFeatureGeom, clickedFeatureName, clickedFeatureMoreInfo)
+        })
+    })
 }

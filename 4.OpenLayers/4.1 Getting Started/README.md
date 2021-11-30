@@ -40,7 +40,7 @@ Add this code into ypour `main.js` or `script.js` file:
 
 ### Sample result shown below, focus at `Kiambu County` in Central Kenya.
 
-<img src = "https://github.com/OkomoJacob/webGIS/blob/main/4.OpenLayers/4.1%20First%20Mini%20Project/imgs/addingVectorData.png"> <br>
+<img src = "https://github.com/OkomoJacob/webGIS/blob/main/4.OpenLayers/4.1%20Getting%20Started/imgs/addingVectorData.png"> <br>
 
 ## Adding OSM Basemaps
 - OSM basemaps in png can be found [here as Tile servers](https://wiki.openstreetmap.org/wiki/Tile_servers).
@@ -77,7 +77,7 @@ import {Fill, Stroke, Circle, Style} from 'ol/style';
 - Styling  makes your vector layers look even more awesome as shown below
 - The points are seen as distinct red circles, ploygons as blue. This were implemented by the `ol.style.Circle`
 
-<img src = "https://github.com/OkomoJacob/webGIS/blob/main/4.OpenLayers/4.1%20First%20Mini%20Project/imgs/stylingTerrainVectorData.png"> <br>
+<img src = "https://github.com/OkomoJacob/webGIS/blob/main/4.OpenLayers/4.1%20Getting%20Started/imgs/stylingTerrainVectorData.png"> <br>
 
 
 ## Adding Interactivity to your Vector Features
@@ -125,6 +125,10 @@ var popup = new Overlay({
 popup.setPosition(coordinate);
 map.addOverlay(popup);
 ```
+### Sample Pop-Up on click
+
+<img src = "https://github.com/OkomoJacob/webGIS/blob/main/4.OpenLayers/4.1%20Getting%20Started/imgs/finalStyles.png">
+
 ## Filter Layers.
 - If you have very many layers, but onky want to display a given one,
 ### Example

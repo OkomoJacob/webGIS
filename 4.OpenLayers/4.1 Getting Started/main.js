@@ -6,8 +6,7 @@ function init(){
             center: [4176064.061715488, 7011.839939746307],
             zoom: 6.2,
             minZoom: 6,
-            maxZoom: 20,
-            // rotation: 0.5 // in radians
+            maxZoom: 20
         }),
         target: 'js-map'
     })

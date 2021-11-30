@@ -107,10 +107,13 @@ function init(){
     const overlayFeatureAdditionalInfo = document.getElementById('feature-more-info');
 
     map.on('click', function(e){
+        
+        // Disable text overlay when outside of feature is clicked
+        overlayLayer.setPosition(undefined);
         map.forEachFeatureAtPixel(e.pixel, function (feature, layer){
             
             let clickedCoordinate = e.coordinate;
-            let clickedFeatureGeom = feature.get('geometry');
+            // let clickedFeatureGeom = feature.get('geometry');
             let clickedFeatureName = feature.get('Name');
             let clickedFeatureMoreInfo = feature.get('More Info');
             overlayLayer.setPosition(clickedCoordinate);
@@ -119,6 +122,12 @@ function init(){
             overlayFeatureName.innerHTML = clickedFeatureName;
             overlayFeatureAdditionalInfo.innerHTML = clickedFeatureMoreInfo;
             //console.log(clickedFeatureGeom, clickedFeatureName, clickedFeatureMoreInfo);
+        },
+        {
+            //Filter only a specific layer if you have many layers to display
+            layerFilter: function (layerCandidate){
+                return layerCandidate.get('title') === 'Kiambu Kenya'
+            }
         })
     })
 }

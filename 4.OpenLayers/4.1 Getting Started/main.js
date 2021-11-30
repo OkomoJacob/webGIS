@@ -39,8 +39,7 @@ function init(){
         title: 'StamenTerrain'
     })
     // Layer Groups
-    // map.addLayer(stamenTerrain);
-    // Buggy, only stamen loads
+    // Buggy, stamen and OSMHumanitarian (But not onLoad as set) loads: openStreetMapHumanitarian doesn't load
     const baseLayerGroup = new ol.layer.Group({
         layers: [
             openStreetMapStandard, openStreetMapHumanitarian, stamenTerrain

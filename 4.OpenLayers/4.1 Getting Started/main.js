@@ -96,14 +96,29 @@ function init(){
     map.addLayer(kiambuGeosJSON);
     
     //Interactivity: Vector Feature Pop-up Logic
+    const overlayContainerElement = document.querySelector('.overlay-container');
+    const overlayLayer = new ol.Overlay({
+        element: overlayContainerElement
+    })
+    map.addOverlay(overlayLayer);
+
+    //Get the two span labels on pop-up
+    const overlayFeatureName = document.getElementById('feature-name');
+    const overlayFeatureAdditionalInfo = document.getElementById('feature-more-info');
+
     map.on('click', function(e){
         map.forEachFeatureAtPixel(e.pixel, function (feature, layer){
             
+            let clickedCoordinate = e.coordinate;
             let clickedFeatureGeom = feature.get('geometry');
             let clickedFeatureName = feature.get('Name');
             let clickedFeatureMoreInfo = feature.get('More Info');
+            overlayLayer.setPosition(clickedCoordinate);
 
-            console.log(clickedFeatureGeom, clickedFeatureName, clickedFeatureMoreInfo)
+            //change the content of the spans
+            overlayFeatureName.innerHTML = clickedFeatureName;
+            overlayFeatureAdditionalInfo.innerHTML = clickedFeatureMoreInfo;
+            //console.log(clickedFeatureGeom, clickedFeatureName, clickedFeatureMoreInfo);
         })
     })
 }

@@ -125,7 +125,20 @@ var popup = new Overlay({
 popup.setPosition(coordinate);
 map.addOverlay(popup);
 ```
+## Filter Layers.
+- If you have very many layers, but onky want to display a given one,
+### Example
 
+- Only display layer with the title as `Kiambu Kenya`
+  
+```jsx
+
+//Filter only a specific layer if you have many layers to display
+layerFilter: function (layerCandidate){
+    return layerCandidate.get('title') === 'Kiambu Kenya'
+}
+```
+  * Read more about **filtering layers** [here](https://openlayers.org/en/latest/apidoc/module-ol_Map-Map.html#forEachFeatureAtPixel)
 ## Refernces
 1. [All ol Classes, Elements in the Official API Docs](https://openlayers.org/en/latest/apidoc/)<br>
 2. 
